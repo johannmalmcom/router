@@ -1,6 +1,6 @@
 # router
 
-´´´php
+```php
 
 require_once("./vendor/Route.php");
 
@@ -16,4 +16,4 @@ Route::get("/secret", function() {
     return true;
 });
 
-´´´
+```
