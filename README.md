@@ -16,6 +16,7 @@ Route::get("/wildcard/:id", function() {
     return "Wildcard";
 });
 
+// Secret
 Route::get("/secret", function() {
     return "Secret";
 }, function() {
