@@ -11,6 +11,18 @@ Route::get("/", function() {
     return "Hello, world";
 });
 
+Route::post("/", function() {
+    return "Hello, post";
+});
+
+Route::put("/", function() {
+    return "Hello, put";
+});
+
+Route::delete("/", function() {
+    return "Hello, delete";
+});
+
 // Wildcard
 Route::get("/wildcard/:id", function() {
     return "Wildcard";
