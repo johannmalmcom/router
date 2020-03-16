@@ -6,14 +6,20 @@ require_once("./vendor/Route.php");
 
 use Router\Route;
 
+// Ordinary
 Route::get("/", function() {
     return "Hello, world";
 });
 
+// Wildcard
+Route::get("/wildcard/:id", function() {
+    return "Wildcard";
+});
+
 Route::get("/secret", function() {
-    return "Hello, secret";
+    return "Secret";
 }, function() {
-    return true;
+    return false;
 });
 
 ```
