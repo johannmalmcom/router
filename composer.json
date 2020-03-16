@@ -1,6 +1,6 @@
 {
     "name": "johannmalmcom/router",
-    "description": "A simple router for rest apis and web servers",
+    "description": "A simple router for rest API:s and web servers",
     "type": "library",
     "license": "MIT",
     "authors": [
